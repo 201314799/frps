@@ -17,7 +17,7 @@ REPO=201314799/frps
 WORK_PATH=$(dirname $(readlink -f $0))
 FRP_NAME=frps
 FRP_PATH=/usr/local/frp
-PROXY_URL="https://ghproxy.com/"
+PROXY_URL="https://github.xiaohuang.workers.dev/"
 
 # check frps
 if [ -f "/usr/local/frp/${FRP_NAME}" ] || [ -f "/usr/local/frp/${FRP_NAME}.ini" ] || [ -f "/lib/systemd/system/${FRP_NAME}.service" ];then
